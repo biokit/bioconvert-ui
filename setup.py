@@ -49,7 +49,7 @@ if on_rtd:
 
 
 setup(
-    name='bioconvert-django-ui',
+    name='bioconvert-ui',
     version=version,
     maintainer=metainfo['authors']['Brancotte'][0],
     maintainer_email=metainfo['authors']['Brancotte'][1],
