@@ -16,7 +16,7 @@ metainfo = {
     'license': 'BSD',
     'download_url': ['http://pypi.python.org/pypi/bioconvert-ui', ],
     'url': ['http://pypi.python.org/pypi/bioconvert-ui', ],
-    'description': 'A simple user interface presenting in the browser the convertion proposed by bioconvert.',
+    'description': 'A simple user interface presenting in the browser the conversion proposed by bioconvert.',
     'platforms': ['Linux', 'Unix', 'MacOsX', 'Windows'],
     "keywords": ["django", "REST", "NGS", "bam2bed", "fastq2fasta", "bam2sam"],
     'classifiers': [
