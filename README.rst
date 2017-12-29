@@ -9,7 +9,7 @@ Quick start
 --------------
 In shell::
 
-  pip install bioconvert-django-ui
+  pip install bioconvert-ui
   bioconvert-ui
 
 
