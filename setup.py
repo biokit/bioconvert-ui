@@ -18,7 +18,7 @@ metainfo = {
     'url': ['http://pypi.python.org/pypi/bioconvert-ui', ],
     'description': 'A simple user interface presenting in the browser the convertion proposed by bioconvert.',
     'platforms': ['Linux', 'Unix', 'MacOsX', 'Windows'],
-    "keywords": ["NGS", "bam2bed", "fastq2fasta", "bam2sam"],
+    "keywords": ["django", "REST", "NGS", "bam2bed", "fastq2fasta", "bam2sam"],
     'classifiers': [
           'Development Status :: 1 - Planning',
           'Intended Audience :: Developers',
