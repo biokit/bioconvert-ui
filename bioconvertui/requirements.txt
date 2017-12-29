@@ -1,0 +1,4 @@
+django==1.11
+djangorestframework==3.7.3
+bioconvert
+scipy

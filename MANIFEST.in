@@ -1,0 +1,8 @@
+recursive-exclude * __pycache__
+recursive-exclude * *pyc
+recursive-exclude bioconvertui/bioconvertapi* *
+include requirements*txt
+include CONTRIBUTING.rst
+include LICENSE
+include README.rst
+recursive-exclude test *
