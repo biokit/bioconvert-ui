@@ -1,6 +1,8 @@
 recursive-exclude * __pycache__
 recursive-exclude * *pyc
-recursive-exclude bioconvertui/bioconvertapi* *
+recursive-exclude bioconvert-ui/bioconvertui/bioconvertapi* *
+recursive-include bioconvert-ui/bioconvertui/bioconvertwebui/static *
+recursive-include bioconvert-ui/bioconvertui/bioconvertwebui/templates *
 include requirements*txt
 include CONTRIBUTING.rst
 include LICENSE

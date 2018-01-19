@@ -3,8 +3,8 @@ import os
 from setuptools import setup, find_packages
 
 _MAJOR = 0
-_MINOR = 0
-_MICRO = 3
+_MINOR = 1
+_MICRO = 7
 version = '%d.%d.%d' % (_MAJOR, _MINOR, _MICRO)
 release = '%d.%d' % (_MAJOR, _MINOR)
 
@@ -65,6 +65,7 @@ setup(
     classifiers=metainfo['classifiers'],
     zip_safe=False,
     packages=find_packages(),
+    include_package_data=True,
     install_requires=requirements,
 
     # This is recursive include of data files
