@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 _MAJOR = 0
 _MINOR = 1
-_MICRO = 7
+_MICRO = 8
 version = '%d.%d.%d' % (_MAJOR, _MINOR, _MICRO)
 release = '%d.%d' % (_MAJOR, _MINOR)
 
@@ -15,7 +15,7 @@ metainfo = {
     'version': version,
     'license': 'BSD',
     'download_url': ['http://pypi.python.org/pypi/bioconvert-ui', ],
-    'url': ['http://pypi.python.org/pypi/bioconvert-ui', ],
+    'url': ['https://github.com/biokit/bioconvert-ui', ],
     'description': 'A simple user interface presenting in the browser the conversion proposed by bioconvert.',
     'platforms': ['Linux', 'Unix', 'MacOsX', 'Windows'],
     "keywords": ["django", "REST", "NGS", "bam2bed", "fastq2fasta", "bam2sam"],
