@@ -57,7 +57,8 @@ def main(argv=None):
     url = "127.0.0.1:%s" % port
     OpenWhenReady(delay=0.1, url="http://%s/" % url).start()
     execute_from_command_line([argv[0], "migrate", "--noinput", "-v", "0"])
-    execute_from_command_line([argv[0], "runserver", url, "--noreload", "-v", "0"])
+    execute_from_command_line([argv[0], "collectstatic", "--noinput", "-v", "0"])
+    execute_from_command_line([argv[0], "runserver", url, "--noreload", "--insecure", "-v", "0"])
 
 
 if __name__ == "__main__":
