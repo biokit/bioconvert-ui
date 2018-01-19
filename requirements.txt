@@ -1,2 +1,3 @@
 bioconvert-django-api>=0.0.3
+bioconvert>0.0.11
 django-bootstrap4
