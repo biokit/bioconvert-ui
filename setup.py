@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 _MAJOR = 0
 _MINOR = 1
-_MICRO = 14
+_MICRO = 15
 version = '%d.%d.%d' % (_MAJOR, _MINOR, _MICRO)
 release = '%d.%d' % (_MAJOR, _MINOR)
 
@@ -47,7 +47,7 @@ if on_rtd:
     extra_packages = ["numpydoc", "sphinx_gallery"]
     requirements += extra_packages
 
-
+print(find_packages())
 setup(
     name='bioconvert-ui',
     version=version,
@@ -65,8 +65,8 @@ setup(
     classifiers=metainfo['classifiers'],
     zip_safe=False,
     packages=find_packages(),
-    package_data = {'bioconvert-ui' : ["bioconvertui/*"] },
-    #include_package_data=True,
+    package_data = {'bioconvertui' : ["bioconvertui/*"] },
+    include_package_data=True,
     install_requires=requirements,
 
     # This is recursive include of data files
