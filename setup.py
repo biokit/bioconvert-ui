@@ -65,6 +65,7 @@ setup(
     classifiers=metainfo['classifiers'],
     zip_safe=False,
     packages=find_packages(),
+    package_data = {'bioconvert-ui' : ["bioconvertui/*"] },
     include_package_data=True,
     install_requires=requirements,
 
