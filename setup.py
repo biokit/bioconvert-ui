@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 _MAJOR = 0
 _MINOR = 1
-_MICRO = 15
+_MICRO = 16
 version = '%d.%d.%d' % (_MAJOR, _MINOR, _MICRO)
 release = '%d.%d' % (_MAJOR, _MINOR)
 
@@ -31,7 +31,8 @@ metainfo = {
           'Programming Language :: Python :: 3.6',
           'Topic :: Software Development :: Libraries :: Python Modules',
           'Topic :: Scientific/Engineering :: Bio-Informatics',
-          'Topic :: Scientific/Engineering :: Information Analysis',]
+          'Topic :: Scientific/Engineering :: Information Analysis',],
+    "package_data": {'bioconvertui' : ["bioconvertui/bioconvertwebui/*"] },
     }
 
 
@@ -65,7 +66,7 @@ setup(
     classifiers=metainfo['classifiers'],
     zip_safe=False,
     packages=find_packages(),
-    package_data = {'bioconvertui' : ["bioconvertui/*"] },
+    package_data = metainfo['package_data'],
     include_package_data=True,
     install_requires=requirements,
 
