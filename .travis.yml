@@ -9,7 +9,8 @@ deploy:
   user: bbrancot
   password:
     secure: n7x0WJ6tHvu3TMV8CRyWgf0rFiYsFN1+xSiXqEnm7pO/erJZ/InRm7R/6AyaK5pvEqvNgSd/FFF/TigoG3aF/4hDhwrzcmuZ7OIemqj9VM6xVIaj6nDO1E8siWpq9ElPJBo4Ura/D9xJ+byIdW/rhFtGcfuZ2Ggp5ygbdynQoEQLkLDNamjiBW3dGXldod/Hwikj9/prpXbhvFSrBsRZNmB/0jM5l6i38nBKK1xivYJx8riEaIKYssOW3Q69kx6sdLvMRh8ljWo2GOd+5lKdGIfqYkM2VSmsrUFT614wc0hJrOB6t89zVUhhsVLj08RdcQuMMDHx7k5pXKUmGMbZbLizm1EQlX486Nmcm972FfG+AHLNZ1WCngDYFSR8UL6qXo+OJfEHUStMXWfTm1eALtsok4RfZCzbdYmVYQi9HFNAipaRh5YPyc0od4K3JkWul/z/iwexXbV6dg++j521OmNnIYUYSiThsRTKjVbwDJUCRTwRr+Om6XVSp6L5ZXUloHwvtOJA+oXa0Qpu63hPanCgeJdSiPnIHrlu5FrmuPbju0W30bXQzCnNDPbT6pIW04KOMYN5HKC55UHOe7PTioJb6nIwJR/fKDHy1m03zGrehxwPaGVDb9g32Vdvp6ThjZdlSSfFdRsWQqnflgvgQX2DJ2myexHWUGhMRcOyNiU=
-#  server: https://test.pypi.org/legacy/
+    server: https://test.pypi.org/legacy/
+  distributions: "sdist bdist_wheel" # Your distributions here
   on:
     tags: true
     python: 3.6
