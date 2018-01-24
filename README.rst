@@ -1,6 +1,12 @@
 Bioconvert UI
 ===============
 
+.. image:: https://badge.fury.io/py/bioconvert-ui.svg
+    :target: https://pypi.python.org/pypi/bioconvert-ui
+
+.. image:: https://secure.travis-ci.org/biokit/bioconvert-ui.png
+    :target: http://travis-ci.org/biokit/bioconvert-ui
+
 A simple user interface presenting in the browser the conversion proposed by bioconvert_.
 It starts a django project with `django-rest-framwork`_ and `bioconvert-api`_ and open the main page in the default browser
 
