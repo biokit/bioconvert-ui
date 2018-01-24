@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 _MAJOR = 0
 _MINOR = 1
-_MICRO = 13
+_MICRO = 14
 version = '%d.%d.%d' % (_MAJOR, _MINOR, _MICRO)
 release = '%d.%d' % (_MAJOR, _MINOR)
 
@@ -66,7 +66,7 @@ setup(
     zip_safe=False,
     packages=find_packages(),
     package_data = {'bioconvert-ui' : ["bioconvertui/*"] },
-    include_package_data=True,
+    #include_package_data=True,
     install_requires=requirements,
 
     # This is recursive include of data files
